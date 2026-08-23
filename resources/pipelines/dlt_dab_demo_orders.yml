@@ -1,0 +1,14 @@
+id: 9d2e6ad7-2d47-4e79-9d7a-b9cab9b2bf64
+pipeline_type: WORKSPACE
+name: dlt_orders_pipeline
+libraries:
+  - notebook:
+      path: ../notebooks/dlt_dab_demo_orders
+schema: default
+continuous: false
+development: false
+photon: true
+channel: CURRENT
+catalog: workspace
+serverless: true
+root_path: /Workspace/Users/debrup95@gmail.com/dlt_orders_pipeline

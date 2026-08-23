@@ -1,0 +1,4 @@
+varaibles:
+  catalog:
+    description: This is the name of the target catalog
+    default: samples
